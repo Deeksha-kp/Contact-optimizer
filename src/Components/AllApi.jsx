@@ -1,5 +1,5 @@
 import axios from "axios";
-const base_url="https://contact-managment-glo6.onrender.com"
+const base_url="https://contact-management-didy.onrender.com"
 
 export const addContact =async(data) =>{
     return await axios.post(`${base_url}/contacts`, data)
